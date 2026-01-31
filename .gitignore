@@ -1,0 +1,13 @@
+# Yii runtime
+app/protected/runtime/*
+
+# Assets
+app/assets/*
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db

@@ -94,4 +94,14 @@ class Product extends CActiveRecord
 
         return parent::beforeSave();
     }
+
+    /**
+     * Define relations
+     */
+    public function relations()
+    {
+        return array(
+            'orderItems' => array(self::HAS_MANY, 'OrderItem', 'product_id'),
+        );
+    }
 }

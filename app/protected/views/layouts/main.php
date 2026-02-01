@@ -20,6 +20,7 @@
 			<a href="/post" class="text-white text-lg font-semibold">Post</a>
 			<a href="/appointment" class="ml-6 text-white text-lg font-semibold">Appointments</a>
 			<a href="/product" class="ml-6 text-white text-lg font-semibold">Products</a>
+			<a href="/order" class="ml-6 text-white text-lg font-semibold">Orders</a>
 		</div>
 	</div>
 

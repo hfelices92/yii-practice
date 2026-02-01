@@ -19,11 +19,15 @@
 		<div>
 			<a href="/post" class="text-white text-lg font-semibold">Post</a>
 			<a href="/appointment" class="ml-6 text-white text-lg font-semibold">Appointments</a>
+			<a href="/product" class="ml-6 text-white text-lg font-semibold">Products</a>
 		</div>
 	</div>
 
 	</nav>
-<?php echo $content; ?>
+	<div class="mx-auto flex flex-col px-6 md:px-0 max-w-7xl">
+
+		<?php echo $content; ?>
+	</div>
 
 </body>
 </html>

@@ -36,6 +36,9 @@ return array(
 			// enable cookie-based authentication
 			'allowAutoLogin' => true,
 		),
+		'apiResponse' => array(
+			'class' => 'application.components.ApiResponse',
+		),
 
 		// uncomment the following to enable URLs in path-format
 
@@ -52,7 +55,7 @@ return array(
 
 		// database settings are configured in database.php
 		'db' => require(dirname(__FILE__) . '/database.php'),
-		
+
 		'errorHandler' => array(
 			// use 'site/error' action to display errors
 			'errorAction' => YII_DEBUG ? null : 'site/error',
